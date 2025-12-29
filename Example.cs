@@ -8,7 +8,7 @@ public class PlayerData
 }
 
 // In your code
-var player = new PlayerData { Name = "Grok", Level = 50 };
+var player = new PlayerData { Name = "Player", Level = 50 };
 player.TempHealth = 999; // ignored
 
 await AutoSave.SaveAsync(player);
